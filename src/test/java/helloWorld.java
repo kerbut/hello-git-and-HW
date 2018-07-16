@@ -1,8 +1,14 @@
 public class helloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World");
-//        lesson2 ls =new lesson2();
-//        float aaa= ls.Task1(1,2,3);
-//        System.out.println(aaa);
+
+        HW1 hw1 = new HW1();
+        HW2 hw2 = new HW2();
+        HW3 hw3 = new HW3();
+        HW4 hw4 = new HW4();
+
+        System.out.println(hw1.First(2,3,4));
+
+
     }
 }
